@@ -1,0 +1,501 @@
+nav {
+    text-align: right;
+    font-size: 20px;
+    padding: 15px;
+    margin: 0px;
+    background-color: #ededdf;
+}
+
+a{
+padding: 5px;
+color: black;
+text-transform: uppercase;
+}
+
+body {
+    text-align: center;
+    background-color: #F8F4E3;
+}
+
+button {
+    color: #791800;
+    border-radius: 10px;
+    font-size: 14px;
+}
+select {
+    font-size: 15px;
+}
+
+
+img-donate {
+    width: 500px;
+    height: auto;
+}
+
+#footer{
+    background-color: #38795d;
+    color: white;
+}
+
+/* All other Pages */
+video {
+    width: 1800px;
+    height: auto;
+}
+h1 {
+    color: #E28413;
+}
+img {
+    height: auto;
+}
+.takeaction {
+    background-color: #ededdf;
+    padding: 10px;
+
+}
+.NEWS {
+    display: grid;
+    align-items: left;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr ;
+    background-color: #ededdf;
+}
+.news1 {
+    float: left;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: #882929;
+}
+.news2 {
+    float: left;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: #2274A5;
+}
+.news3 {
+    float: left;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: #E28413;
+}
+.news4 {
+    float: left;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: #882929;
+}
+.news5 {
+    float: left;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: #2274A5;
+}
+.news6 {
+    float: left;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: #E28413;
+}
+
+
+p {
+    color: black;
+    font-size: 17p;
+}
+
+.imagecontainer {
+position: relative;
+display: inline-block;
+}
+
+.imagecontainer img {
+    display: block;
+    margin-right: 20px;
+}
+.imagecontainer .imagetext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.4 ease-out;
+}
+.imagecontainer:hover .imagetext {
+    opacity: 2;
+}
+.imagecontainer2 {
+    position: relative;
+    display: inline-block;
+    }
+    
+.imagecontainer2 img {
+    display: block;
+    margin-right: 20px;
+}
+
+.imagecontainer2 .imagetext2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.4 ease-out;
+}
+.imagecontainer2:hover .imagetext2 {
+    opacity: 2;
+}
+.imagecontainer3 {
+    position: relative;
+    display: inline-block;
+    }
+.imagecontainer3 img {
+    display: block;
+    margin-right: 20px;
+}
+.imagecontainer3 .imagetext3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.4 ease-out;
+}
+.imagecontainer3:hover .imagetext3 {
+    opacity: 2;
+}
+/* Home Page Impact Section CSS */
+
+.impactcontainer{
+    position: relative;
+    display: inline-block;
+}
+.impactcontainer img {
+    display: block;
+}
+
+.impactcontainer .impacttext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.4 seconds;
+}
+
+.impactcontainer:hover .impacttext {
+    opacity: 2;
+    color: white;
+}
+
+
+.projectcontainer{
+    position: relative;
+    display: inline-block;
+}
+.projectcontainer img {
+    display: block;
+}
+
+.projectcontainer .projecttext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.4 seconds;
+}
+
+.projectcontainer:hover .projecttext {
+    opacity: 2;
+    color: black;
+}
+
+.projectcontainer2 {
+    position: relative;
+    display: inline-block;
+}
+
+.projectcontainer2 img {
+    display: block;
+    
+}
+
+.projectcontainer2 .projecttext2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.4 seconds;
+}
+
+.projectcontainer2:hover .projecttext2 {
+    opacity: 2;
+    color: white;
+}
+
+.projectcontainer3 {
+    position: relative;
+    display: inline-block;
+}
+
+.projectcontainer3 img {
+    display: block;
+}
+.projectcontainer3 .projecttext3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.4 seconds;
+}
+.projectcontainer3:hover .projecttext3 {
+    opacity: 2;
+    color: black;
+}
+
+.stats {
+color: black;
+background-color: #ededdf;
+}
+
+table th, td {
+    border: 2px solid;
+    font-size: 35px;
+    padding: 30px;
+}
+
+th {
+    background-color: #791800;
+    color: white;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.MissionValues {
+    display: flex;
+}
+.MissionValues img {
+    max-width: 600px;
+    height: auto;
+    margin-left: 100px;
+    border-radius: 50% 50%
+}
+.MissionValues .missiontext {
+   font-size: 30px;
+   margin-top: auto;
+   margin-bottom: auto;
+}
+
+.teammembers {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    background-color: #ededdf;
+}
+.team1 {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: #882929;
+}
+.team2 {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: #2274A5;
+}
+.team3 {
+    text-align: center;
+    padding: 10px;
+    color: #E28413;
+}
+
+/* Responsive CSS */
+@media only screen and (max-width:767px) {
+nav {
+   text-align: center;
+}
+ 
+.hero {
+    width: 100%;
+}
+.impactcontainer img {
+    width: 100%;
+}
+.NEWS {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.news1, .news2, .news3 {
+    width: 100%;
+    max-width: 767px;
+    margin-bottom: 10px;
+}
+video {
+    width: 100%;
+}
+.mission{
+    text-align: center;
+}
+.MissionValues {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.MissionValues img {
+    width: 500px;
+    height: auto;
+}
+
+.missiontext {
+    padding: 10px;
+    max-width: 600px;
+}
+.map {
+    margin: 20px;
+}
+
+.map img{
+    width: 100%;
+    max-width: 767px;
+    height: auto;
+}
+.donate img {
+    width: 100%;
+    height: auto;
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.projectcontainer, .projectcontainer2, .projectcontainer3 {
+    width: 100%;
+    max-width: 767px;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 767px;
+
+}
+table {
+    margin: 10px;
+}
+.social img {
+    width: 40px;
+    max-width: 767px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1600px) {
+nav {
+    text-align: center;
+}
+    .hero {
+         width: 100%;
+     }
+.takeaction img {
+    width: 100%;
+    min-width: 768px;
+    max-width: 1199px;
+    height: auto;
+}
+.NEWS {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-around;
+     }
+.news1, .news2, .news3 {
+         width: 100%;
+         min-width: 768px;
+         max-width: 1199spx;
+         margin-bottom: 10px;
+     }
+video {
+         width: 100%;
+     }
+.mission{
+         text-align: center;
+     }
+.MissionValues {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+         align-items: center;
+     }
+.MissionValues img {
+         width: 500px;
+         height: auto;
+     }
+     
+.missiontext {
+         padding: 10px;
+         max-width: 600px;
+     }
+.map img{
+         width: 100%;
+         max-width: 1199px;
+         height: auto;
+     }
+.donate img {
+         width: 100%;
+         height: auto;
+     }
+.projects {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+     }
+.projectcontainer, .projectcontainer2, .projectcontainer3 {
+         width: 100%;
+         min-width: 768px;
+         max-width: 1199px;
+         margin-bottom: 10px;
+     }
+     
+img {
+         width: 100%;
+         height: auto;
+     }
+table {
+         margin: 10px;
+     }
+.social img {
+         width: 40px;
+     }
+}
